@@ -1,0 +1,20 @@
+Usuario
+    email  Text
+    senha  Text
+      UniqueRestEmail email
+
+Aluno
+    nome  Text
+    ra    Text
+    idade Int
+    
+Disciplina
+    nome   Text
+    aluid  AlunoId 
+    profid ProfessorId
+    comeco Day
+
+Professor
+    nome   Text
+    titulo Text
+    carga  Int

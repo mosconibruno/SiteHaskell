@@ -1,0 +1,3 @@
+psql -h ec2-54-221-243-211.compute-1.amazonaws.com -U nxhrurgelwknkk -d df72cg1c0n7u1a
+
+24251e6a74a618bcbea77e306ab775ace4dac5f540f64d431fee6182708809ba

@@ -1,0 +1,14 @@
+Host
+ec2-54-221-243-211.compute-1.amazonaws.com
+Database
+df72cg1c0n7u1a
+User
+nxhrurgelwknkk
+Port
+5432
+Password
+24251e6a74a618bcbea77e306ab775ace4dac5f540f64d431fee6182708809ba
+URI
+postgres://nxhrurgelwknkk:24251e6a74a618bcbea77e306ab775ace4dac5f540f64d431fee6182708809ba@ec2-54-221-243-211.compute-1.amazonaws.com:5432/df72cg1c0n7u1a
+Heroku CLI
+heroku pg:psql postgresql-curly-54922 --app aulahaskellbrunomosconi

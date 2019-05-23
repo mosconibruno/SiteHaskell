@@ -1,0 +1,4 @@
+Produto json
+    nome        Text
+    preco       Double
+    qtEstoque   Int

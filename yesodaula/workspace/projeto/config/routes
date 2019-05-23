@@ -1,0 +1,29 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET 
+/page1 Page1R GET
+/page2 Page2R GET
+/page3 Page3R GET
+
+/login       LoginR     GET POST
+/logout      LogoutR    POST
+
+/admin       AdminR     GET
+
+/professor   ProfR      GET POST
+/professores TodosProfR GET
+
+/disciplina/#ProfessorId/aluno DiscR      GET POST
+/chamada/#ProfessorId          ChamadaR   GET
+/matricula/#AlunoId            MatriculaR GET
+
+/usuario  UsuarioR     GET POST
+
+/aluno  AlunoR         GET POST
+/alunos TodosAlunosR   GET
+/aluno/#AlunoId/perfil AlunoPerfilR GET
+/aluno/#AlunoId/apagar AlunoApagarR POST
+/aluno/#AlunoId/alterar AlunoAlteraR GET POST

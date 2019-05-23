@@ -1,0 +1,29 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                NOME
+            <th>
+                RA
+            <th>
+                Idade
+            <th>
+            
+            <th>
+                
+    <tbody>
+        $forall (Entity aluid aluno) <- alunos
+            <tr>
+                <td>
+                    <a href=@{AlunoPerfilR aluid}>
+                        #{alunoNome aluno}
+                <td>
+                    #{alunoRa aluno}
+                <td>
+                    #{alunoIdade aluno}
+                <td>
+                    <a href=@{AlunoAlteraR aluid}>
+                        Editar
+                <td>
+                    <form action=@{AlunoApagarR aluid} method=post>
+                        <input type="submit" value="X">
