@@ -1,0 +1,19 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                NOME
+            <th>
+                TITULO
+            <th>
+                CARGA
+                
+    <tbody>
+        $forall (Entity profid prof) <- profs
+            <tr>
+                <td>
+                    #{professorNome prof}
+                <td>
+                    #{professorTitulo prof}
+                <td>
+                    #{professorCarga prof}
