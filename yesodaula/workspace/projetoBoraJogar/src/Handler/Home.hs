@@ -22,7 +22,7 @@ getHomeR = do
         addStylesheet $ StaticR css_bootstrap_css
         toWidgetHead [julius|
             function teste(){
-                alert("OLA MUNDO!");
+                alert("BORA JOGAR!");
             }
         |]
         toWidget [lucius|
@@ -58,7 +58,7 @@ getHomeR = do
                     <li>
                         <a href=@{LoginR}>
                             Entrar
-            <img src=@{StaticR imgs_champions1_jpg}>
+               <img src=@{StaticR imgs_champions1_jpg}>
                         
             <button onclick="teste()" class="btn btn-primary">
                 OK

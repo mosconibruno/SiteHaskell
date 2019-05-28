@@ -32,7 +32,7 @@ postLoginR :: Handler Html
 postLoginR = do
     ((res,_),_) <- runFormPost formLogin
     case res of
-        FormSuccess ("root@root123.com","root") -> do 
+        FormSuccess (Usuario "root@root123.com" "root") -> do 
             setSession "_ID" "root"
             redirect AdminR
         FormSuccess usuario -> do

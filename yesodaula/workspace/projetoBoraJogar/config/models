@@ -31,6 +31,10 @@ Atleta
     idade           Int
     cpf             Int
     telefone        Int
+    email           Text
+    senha           Text
+  
+
     
 Local
     nome            Text
